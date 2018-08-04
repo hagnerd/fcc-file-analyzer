@@ -1,0 +1,37 @@
+{
+  "name": "fcc-file-analyzer",
+  "version": "1.0.0",
+  "description": "A simple file analyzer for Freecodecamp's microservice API certification",
+  "main": "bin/www",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node ./bin/www",
+    "start:dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hagnerd/fcc-file-analyzer.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "node",
+    "express"
+  ],
+  "author": "Matt Hagner <web@matthagner.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hagnerd/fcc-file-analyzer/issues"
+  },
+  "homepage": "https://github.com/hagnerd/fcc-file-analyzer#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "multer": "^1.3.1"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "nodemon": "^1.18.3",
+    "supertest": "^3.1.0"
+  }
+}
