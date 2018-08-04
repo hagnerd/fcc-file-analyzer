@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+require('dotenv').config()
+const app = require('../src/app');
+
+app.listen(process.env.PORT, () => console.log(`Express app listengin on PORT ${process.env.PORT}`));
