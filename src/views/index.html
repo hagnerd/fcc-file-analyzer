@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FCC File Analyzer</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>FCC File Analyzer</h1>
+  </header>
+
+  <div class="main-content">
+    <p>Please upload a file</p>
+
+    <form enctype="multipart/form-data" method="POST" action="/api/analyzefile">
+      <input id="inputfield" type="file" name="upfile" />
+      <br />
+      <input id="button" type="submit" value="Upload" />
+    </form>
+
+  </div>
+
+  <footer>
+    <p>Made by
+      <a href="www.matthagner.com">Matt Hagner</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
